@@ -1,0 +1,21 @@
+{
+  "name": "csp-manager",
+  "version": "0.1.0",
+  "description": "Generates CSP for various software based on a JSON file",
+  "main": "index.js",
+  "bin": {
+    "csp-manager": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csp"
+  ],
+  "author": "Oleksii Rudenko",
+  "license": "MIT",
+  "dependencies": {
+    "js-beautify": "^1.5.10",
+    "minimist": "^1.2.0"
+  }
+}
