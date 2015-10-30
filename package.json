@@ -1,6 +1,6 @@
 {
   "name": "csp-manager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generates CSP for various software based on a JSON file",
   "main": "index.js",
   "bin": {
@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "js-beautify": "^1.5.10",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "request": "^2.65.0"
   }
 }
